@@ -519,6 +519,12 @@ body {
     color: black; 
     transform: translateY(-5px);
 }
+@media (hover: hover) {
+  .button-sobre:hover  {
+      transform: translateY(-5px);
+      transition: transform 0.3s ease;
+  }
+}
 
 .button-sobre i {
   padding-right: 5px;
