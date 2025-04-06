@@ -33,8 +33,3 @@ function scrollToDiv() {
   });
 }
 
-document.querySelectorAll('.title i').forEach(icon => {
-  icon.addEventListener('click', () => {
-    icon.blur();
-  });
-});
