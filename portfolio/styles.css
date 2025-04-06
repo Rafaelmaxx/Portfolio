@@ -183,6 +183,12 @@ html, body {
   transform: translateY(-8px);
   color: #d69ffa;
 }
+@media (hover: hover) {
+  .title i:hover {
+      transform: translateY(-5px);
+      transition: transform 0.3s ease;
+  }
+}
 
 
 .green {
